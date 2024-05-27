@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style.css">
-    <title>My Postcard</title>
+    <title>HTML</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div class="cajagrande">
-            <h1 class="titulo">My Postcard</h1>
-         <div class="cabecerapostal">
-            <img src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png">
-        </div>
-            <div id="Parrafo">
-                <div class="texto1">
-                 <p>
-                Look how awesome! this is a postcard that I created using HTML5 CSS3 during my 4Geeks Academy Course!
-                <br></br>
-                This is so cool, can't wait to start doing more stuff!
-                </p>
+    <div class="postal">
+       
+        <div class="flex-container">
+                <div class="iconosarriba">
+                    <i class="fa-solid fa-house-laptop"></i>
+                    <b>mundocumpu_</b>
                 </div>
-                 <div class="texto1">
-                 <form>
-                <input type="text" id="name" name="name" placeholder="Some Name" required>
-                <br></br>
-                <input type="email" id="email" name="email" placeholder="Some Email" required>
-                <br></br>
-                <input id="comment" name="comment" rows="4" placeholder="Some Comment" required></textarea>
-                <br></br>
-                </form>
-            </div>                
+                <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>
-        <div>
-        <div id="cajaboton">
-<button type="button">Send My Postcard</button>
-            </div>
+        <div class="img">
+            <img
+                src="https://static.tweaktown.com/news/9/7/97384_111_nvidia-to-unveil-top-end-geforce-rtx-5090-and-high-5080-at-first-later-this-year.jpg"></img>
+        </div>
+        <div class="flex-container colortex">
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+        </div>
+        <div class="cuerpo">
+            <p><b>Les gusta a</b>vinicioleon<b>y 5,800 personas más</b></p>
+            <p><b>mundocumpu_</b>Los socios de AIB esperan que NVIDIA anuncie la serie GeForce RTX 50 de próxima generación en
+                el cuarto trimestre de 2024. NVIDIA se centrará inicialmente en sus nuevas tarjetas gráficas GeForce RTX
+                5090 de gama alta y GeForce RTX 5080 de gama alta. Según UDN, sus funcionarios dicen que son optimistas
+                de que el lanzamiento de las GPU RTX serie 50 de próxima generación ayudará a los envíos de los socios
+                de AIB y aumentará el precio unitario promedio de las tarjetas gráficas.</p>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/fad4a16d78.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

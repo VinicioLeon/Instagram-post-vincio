@@ -1,0 +1,66 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px auto;
+}
+
+.fa-solid {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+p {
+    color: white;
+    padding: 5px;
+}
+
+.postal {
+    color: white;
+    background-color: black;
+    width: 25%;
+    height: 25%;
+    padding: 25px;
+    border: 2px solid black;
+    margin: auto;
+ }
+
+
+.iconos {
+    width: 10%;
+    padding: 10px;
+    color: teal;
+}
+
+.fa-house-laptop {
+    color: teal;
+    font-size: 30px;
+}
+
+.fa-ellipsis-vertical {
+    color: teal;
+    font-size: 20px;
+    justify-content: flex-end;
+
+}
+
+b {
+    width: 20px;
+    height: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+}
+.iconosarriba {
+    display: flex;
+    gap: 15px;
+}
+.colortex {
+    color:teal;
+}
